@@ -10,7 +10,11 @@ namespace GenericsIntro
             isimler.Add("Engin");
             isimler.Add("Ayşe");
             isimler.Add("Gürkan");
-
+            Console.WriteLine(isimler.Length);
+            foreach (var isim in isimler.Items)
+            {
+                Console.WriteLine(isim);
+            }
         }
     }
 }
